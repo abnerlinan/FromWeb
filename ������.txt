@@ -1,5 +1,5 @@
 chrome会不加载display:none 的dom,
 当display变为block,inline后加载图片.
-所以对平凡操作的dom如有图片虚预加载
+所以对频繁操作的dom如有图片虚预加载
 firefox对ajax加载的图片会统计在net里,
 firefox对display:none的dom里的图片会在page load状态后加载.
